@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courasel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        .container1 {
+            height: 12vw;
+            width: 47.5vw;
+            display: flex;
+            overflow: hidden;
+            border: 2px solid red;
+
+            .slider {
+                height: 12vw;
+                width: 45vw;
+                /* border: 2px solid red; */
+                display: flex;
+                transition: all 1s ease 0s;
+
+
+                .image {
+                    height: 12vw;
+                    width: 45vw;
+
+                    img {
+                        height: 12vw;
+                        width: 45vw;
+                    }
+                }
+            }
+
+        }
+
+        .arrowl {
+            height: 12vw;
+            width: 1.2vw;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+            background-color: white;
+
+            div {
+                height: 16px;
+                width: 16px;
+
+                i {
+                    color: red;
+                    height: 100%;
+
+                }
+
+            }
+        }
+
+        .arrowr {
+            height: 12vw;
+            width: 1.3vw;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+            background-color: white;
+
+            div {
+                height: 16px;
+                width: 16px;
+
+                i {
+                    color: red;
+                }
+
+            }
+        }
+
+
+        .scroller {
+            width: 300px;
+            height: 100px;
+            overflow-y: scroll;
+            scrollbar-width: thin;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container1">
+        <div class="arrowl">
+            <div><i onclick="moveright();" style="cursor: pointer; height: 100%; width: 100%;"
+                    class="fa-solid fa-chevron-left"></i></div>
+        </div>
+        <div class="slider">
+            <div class="image">
+                <img src="oceansat3_high.jpg" alt="no">
+            </div>
+            <div class="image">
+                <img src="PreciseAirQualityMonitoring.jpg.webp" alt="no">
+            </div>
+            <div class="image">
+                <img src="chairman_live.png.webp" alt="no">
+            </div>
+            <div class="image">
+                <img src="AO14220224.jpg" alt="no">
+            </div>
+            <div class="image">
+                <img src="Astrosat.png" alt="no">
+            </div>
+            <div class="image">
+                <img src="decadalvision.jpg" alt="no">
+            </div>
+            <div class="image">
+                <img src="Achievements_Space.jpg.webp" alt="no">
+            </div>
+
+        </div>
+
+        <br><br>
+        <div class="arrowr">
+            <div><i onclick="moveleft();" style="cursor: pointer; height: 100%; width: 100%;"
+                    class="fa-solid fa-chevron-right"></i></div>
+        </div>
+    </div>
+
+
+    <div class="scroller">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex consectetur sint consequuntur dicta facere sit nisi
+        corporis quidem, minima tenetur deleniti quo dolores consequatur recusandae corrupti officia fugiat est.
+        Distinctio!
+        Sunt sint asperiores iusto. Consequuntur officiis perferendis commodi ducimus quaerat possimus totam in dolorem,
+        recusandae, eos iste placeat quae officia? Repudiandae minus cupiditate atque hic deserunt quae soluta a quo.
+        Impedit accusamus excepturi accusantium mollitia quasi tenetur repudiandae, qui quis maiores, quas, sit
+        similique provident pariatur cum rerum non repellendus fuga maxime fugit dignissimos dolorum incidunt at id
+        illum. Excepturi?
+    </div>
+
+
+
+    <marquee>shahil</marquee>
+
+    
+    <script>
+        const slider = document.querySelector(".slider");
+        let slide = 1;
+        const imag = document.querySelectorAll(".image");
+        function moveright() {
+
+            if (slide > 1) {
+                slider.style.transform = `translateX(${-(slide - 2) * 45}vw)`;
+                slide--;
+            }
+            else {
+                slider.style.transform = `translateX(-180vw)`;
+                slide = 5;
+            }
+            console.log(slide);
+        }
+
+        function moveleft() {
+
+            if (slide < imag.length) {
+                slider.style.transform = `translateX(-${45 * slide}vw)`;
+                slide++;
+                // document.write("hello");
+            }
+            else {
+                slider.style.transform = `translateX(0px)`;
+                slide = 1;
+            }
+            console.log(slide);
+        }
+
+        // setInterval(moveleft,6000);
+
+    </script>
+</body>
+
+</html>
