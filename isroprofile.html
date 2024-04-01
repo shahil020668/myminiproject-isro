@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="isro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="ican.png">
+    <title>Indian Space Research Organisation</title>
+<style>
+   
+   body{
+            height: 100vh;
+            width: 100vw;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+        .contentb{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            
+        }
+        .spark{
+            margin-top: 80px;
+            position: relative;
+            right: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 80px;
+
+            
+        }
+        .launching-info{
+            display: flex;
+        }
+        .laino{
+            padding: 20px;
+            h2{
+                font-weight: 900;
+                
+            }
+            display: flex;
+            /* justify-content: center; */
+            padding-left: 40px;
+        }
+        .lain{
+            padding: 20px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+        .diplayvirtualspace{
+            height: fit-content;
+            width: fit-content;
+            float: left;
+            img{
+                width: 15vw;
+                height: 10vw;
+                padding: 0;
+                margin: 0;
+            }
+        }
+        .museummain{
+            width: 95%;
+            border-left: 3px dotted black;
+            box-shadow: 2px 2px 8px black;
+            padding: 10px;
+            .museum p{
+
+                font-size: larger;
+                padding-left: 10px;
+            }
+            margin-top: 20px;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .museum{
+            width: 98%;
+            /* border: 2px solid red; */
+
+        }
+
+        @keyframes moveall {
+            from {
+                transform: translateY(80px);
+            }
+            to{
+                transform: translateY(0);
+            }
+        }
+        .spark{
+            animation: moveall 1s 1;
+        }
+        .eccber{
+   width: 100dvw;
+   height: 7.3dvw;
+   background-color: #032848;
+    background-image: url('bxbsddd.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 2px solid black; */
+}
+.title{
+   height: 100%;
+   width: 100%;
+   display: flex;
+}
+.box1,.box3{
+   height: 100%;
+   width: 15%;
+   background-color: #032848;
+   a{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  a img{
+      height: 90%;
+      width: 40%;
+  }
+}
+.box2{
+   height: 100%;
+   width: 70%;
+}
+    </style>
+</head>
+<body>
+
+    <div class="eccber">
+        <div class="title">
+            <div class="box1 box"><a href="myproject.html"><img src="logo222.png" alt="no"></a></div>
+            <div class="box2 box"></div>
+            <div class="box3 box"><a href="#"><img src="chinh1.png" alt="no"></a></div>
+        </div>
+    </div>
+
+
+    <nav class="newnave">
+
+        <ul class="nnve" style="height: 100vh;">
+            <li class="home cross" style="height: fit-content;margin-bottom: 20px;">
+                <a href="#" ><i class="fa-solid fa-xmark"></i></a>
+            </li>
+            <li  style="margin-bottom: 20px;">
+                <a href="myproject.html">Home</a>
+                
+            </li>
+            <li class="home">
+                <a href="#">About</a>
+                <ul class="uhsabysu">
+                    
+                    <li>
+                    <a href="isroprofile.html">Profile</a>
+                    </li>
+                    <li><a href="visionMission.html">
+                        Vission-Mission-Objectives
+                    </a></li>
+                    <li><a href="citizen.html">
+                        Citizen charter
+                    </a></li>
+                    <li><a href="https://www.isro.gov.in/organisation.html">
+                        Organisational structure
+                    </a></li>
+                    <li><a href="https://www.isro.gov.in/isro_centre.html">
+                        DoS Centers/unities/enterprises
+                    </a></li>
+                    <li><a href="https://www.isro.gov.in/leadership.html">
+                        Secretary, DoS/ Chairmen
+                    </a></li>
+                    <li>
+                        <a href="https://www.isro.gov.in/formerchairman.html">
+                        Former Secretaries</a>
+                    </li>
+                    <li><a href="https://www.isro.gov.in/SpaceCommision.html">
+                        Space Commission
+                    </a></li>
+                    <li><a href="https://www.isro.gov.in/autonomous.html">
+                        Autonomous bodies
+                    </a></li>
+                    <li><a href="https://www.isro.gov.in/genesis.html">
+                        Genesis
+                    </a></li>
+                    <li>
+                        <a href="https://www.isro.gov.in/Timeline.html">Timeline</a>
+                    </li>
+                    <li>
+                        <a href="https://www.isro.gov.in/whoswho.html">Who's who</a>
+                    </li>
+                    <li>
+                        <a href="https://www.isro.gov.in/contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="home">
+                <a href="#">Activities</a>
+                <ul>
+                    <li>
+                        <a href="https://www.isro.gov.in/Mission.html">MIssions accomplished</a>
+                    </li>
+                    <li>
+                        <a href="https://www.isro.gov.in/FutureMissions.html">Upcoming Missions</a>
+                    </li>
+                    <li>
+                        <a href="https://www.isro.gov.in/Science.html">Science</a>
+                    </li>
+                    <li>
+                        <a href="#">Launcher</a>
+                    </li>
+                    <li>
+                        <a href="#">Satellites</a>
+                    </li>
+                    <li>
+                        <a href="#">Space Applications</a>
+                    </li>
+                    <li>
+                        <a href="#">Research & Development</a>
+                    </li>
+                    <li>
+                        <a href="#">Gaganyaan</a>
+                    </li>
+                    <li>
+                        <a href="#">Ground-Segment activities</a>
+                    </li>
+                    <li>
+                        <a href="#">Promotion & Authorisation</a>
+                    </li>
+                    <li>
+                        <a href="#">International co-orperation</a>
+                    </li>
+                    <li>
+                        <a href="#">Capacity building</a>
+                    </li>
+                    <li>
+                        <a href="#">Training</a>
+                    </li>
+                    <li>
+                        <a href="#">Outreach</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="home">
+                <a href="#">Services</a>
+                <ul>
+                    <li>
+                        <a href="https://www.isro.gov.in/launchservices.html">Launch service</a>
+                    </li>
+                    <li>
+                        <a href="https://www.isro.gov.in/SatelliteSystemBusSubSystemTesting.html">Satellite: system, bu, sub-system, testing</a>
+                    </li>
+                    <li>
+                        <a href="#">Mission Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Ground system support</a>
+                    </li>
+                    <li>
+                        <a href="#">Satellite Communication & Lease of transponders</a>
+                    </li>
+                    <li>
+                        <a href="#">Space based Earth observation: Bhuvan & Bhoonidhi</a>
+                    </li>
+                    <li>
+                        <a href="#">Satellite Navigation services</a>
+                    </li>
+                    <li>
+                        <a href="#">meteorological & Oceanographic Satellite Data</a>
+                    </li>
+                    <li>
+                        <a href="#">Disaster Management : National & International</a>
+                    </li>
+                    <li>
+                        <a href="#">Aerial Services & Digital Mapping</a>
+                    </li>
+                    <li>
+                        <a href="#">North-East India region specific applications Services</a>
+                    </li>
+                    <li>
+                        <a href="#">VEDAS services</a>
+                    </li>
+                    <li>
+                        <a href="#">Transfer Orbit Service</a>
+                    </li>
+                    <li>
+                        <a href="#">Satellite aided search & rescue</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="home">
+                <a href="#">Programmes</a>
+                <ul>
+                    <li>
+                        <a href="https://www.isro.gov.in/AcademicCourses.html">Academic courses</a>
+                    </li>
+                    <li>
+                        <a href="https://www.isro.gov.in/Conference_Grants.html">Conference Grants</a>
+                    </li>
+                    <li>
+                        <a href="#">Fellowships</a>
+                    </li>
+                    <li>
+                        <a href="#">Space merchandise</a>
+                    </li>
+                    <li>
+                        <a href="#">Space Tutor</a>
+                    </li>
+                    <li>
+                        <a href="#">Space on wheels</a>
+                    </li>
+                    <li>
+                        <a href="#">Student Satellite</a>
+                    </li>
+                    <li>
+                        <a href="#">Technology Transfer</a>
+                    </li>
+                    <li>
+                        <a href="#">UNNATI</a>
+                    </li>
+                    <li>
+                        <a href="#">YUVIKA</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="home">
+                <a href="#">Resources</a>
+                <ul>
+                    <li>
+                        <a href="https://www.isro.gov.in/River_Basin_Atlas.html">Atlases: River basin</a>
+                    </li>
+                    <li>
+                        <a href="https://bhuvan.nrsc.gov.in/home/index.php">Bhuvan</a>
+                    </li>
+                    <li>
+                        <a href="#">Database for Emergency Management</a>
+                    </li>
+                    <li>
+                        <a href="#">FEAST Tool</a>
+                    </li>
+                    <li>
+                        <a href="#">I-grasp</a>
+                    </li>
+                    <li>
+                        <a href="#">Info for Climate & Environment studies</a>
+                    </li>
+                    <li>
+                        <a href="#">Landslide Atlas of India</a>
+                    </li>
+                    <li>
+                        <a href="#">Meterology & Oceanographic data</a>
+                    </li>
+                    <li>
+                        <a href="#">Mobile Apps</a>
+                    </li>
+                    <li>
+                        <a href="#">Monthly Summary of DoS</a>
+                    </li>
+                    <li>
+                        <a href="#">MOSDAC</a>
+                    </li>
+                    <li>
+                        <a href="#">NAVIC Time</a>
+                    </li>
+                    <li>
+                        <a href="#">Publications</a>
+                    </li>
+                    <li>
+                        <a href="#">School Bhuvan - NCERT</a>
+                    </li>
+                    <li>
+                        <a href="#">Science Data</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="home">
+                <a href="#">Engagements</a>
+                <ul>
+                    <li>
+                        <a href="https://www.isro.gov.in/academia.html">Academia</a>
+                    </li>
+                    <li>
+                        <a href="https://www.isro.gov.in/ISROAPP/login.jsp">Ask an expert</a>
+                    </li>
+                    <li>
+                        <a href="#">Educators</a>
+                    </li>
+                    <li>
+                        <a href="#">Industry</a>
+                    </li>
+                    <li>
+                        <a href="#">Internship & Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Join ISRO</a>
+                    </li>
+                    <li>
+                        <a href="#">Media</a>
+                    </li>
+                    <li>
+                        <a href="#">Researchers</a>
+                    </li>
+                    <li>
+                        <a href="#">Start-ups</a>
+                    </li>
+                    <li>
+                        <a href="#">Students</a>
+                    </li>
+                    <li>
+                        <a href="#">Training</a>
+                    </li>
+                    <li>
+                        <a href="#">Visitors</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+     
+
+
+    <div class="new">
+
+        <div class="sidebar"><a href="#"><i class="fa-solid fa-bars"></i></a></i></div>
+
+
+
+        <div class="navbeb">
+            <nav>
+                <ul>
+                    <li class="navele" >
+                        <a href="myproject.html">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="navele" >
+                        <a href="#">
+                            <span>About</span>
+                            <i class="fa-solid fa-chevron-down" ></i>
+                        </a>
+                        <ul class="velen">
+                            <li>
+                                <a href="isroprofile.html">Profile</a>
+                            </li>
+                            <li>
+                                <a href="visionMission.html">Vision-Mission-Objectives</a>
+                            </li>
+                            <li>
+                                <a href="citizen.html">Citizen charter</a>
+                            </li>
+                            <li>
+                                <a href="https://www.isro.gov.in/organisation.html">Organisational structure</a>
+                            </li>
+                            <li>
+                                <a href="#">DoS Centers/units/enterprises</a>
+                            </li>
+                            <li>
+                                <a href="#">Secretary, DoS/Chairmen, ISRO</a>
+                            </li>
+                            <li>
+                                <a href="#">Former Secretaries/Chairmen</a>
+                            </li>
+                            <li>
+                                <a href="#">Space Commission</a>
+                            </li>
+                            <li>
+                                <a href="#">Autonomous bodies</a>
+                            </li>
+                            <li>
+                                <a href="#">Genesis</a>
+                            </li>
+                            <li>
+                                <a href="#">Timeline</a>
+                            </li>
+                            <li>
+                                <a href="#">Who's who</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navele" onmouseover>
+                        <a href="#">
+                            <span>Activities</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="velen" onmouseover>
+                            <li>
+                                <a href="https://www.isro.gov.in/Mission.html">MIssions accomplished</a>
+                            </li>
+                            <li>
+                                <a href="https://www.isro.gov.in/FutureMissions.html">Upcoming Missions</a>
+                            </li>
+                            <li>
+                                <a href="https://www.isro.gov.in/Science.html">Science</a>
+                            </li>
+                            <li>
+                                <a href="#">Launcher</a>
+                            </li>
+                            <li>
+                                <a href="#">Satellites</a>
+                            </li>
+                            <li>
+                                <a href="#">Space Applications</a>
+                            </li>
+                            <li>
+                                <a href="#">Research & Development</a>
+                            </li>
+                            <li>
+                                <a href="#">Gaganyaan</a>
+                            </li>
+                            <li>
+                                <a href="#">Ground-Segment activities</a>
+                            </li>
+                            <li>
+                                <a href="#">Promotion & Authorisation</a>
+                            </li>
+                            <li>
+                                <a href="#">International co-orperation</a>
+                            </li>
+                            <li>
+                                <a href="#">Capacity building</a>
+                            </li>
+                            <li>
+                                <a href="#">Training</a>
+                            </li>
+                            <li>
+                                <a href="#">Outreach</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navele" onmouseover>
+                        <a href="#">
+                            <span>Services</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="velen" onmouseover>
+                            <li>
+                                <a href="https://www.isro.gov.in/launchservices.html">Launch service</a>
+                            </li>
+                            <li>
+                                <a href="https://www.isro.gov.in/SatelliteSystemBusSubSystemTesting.html">Satellite: system, bu, sub-system, testing</a>
+                            </li>
+                            <li>
+                                <a href="https://www.isro.gov.in/missionsupport.html">Mission Support</a>
+                            </li>
+                            <li>
+                                <a href="#">Ground system support</a>
+                            </li>
+                            <li>
+                                <a href="#">Satellite Communication & Lease of transponders</a>
+                            </li>
+                            <li>
+                                <a href="#">Space based Earth observation: Bhuvan & Bhoonidhi</a>
+                            </li>
+                            <li>
+                                <a href="#">Satellite Navigation services</a>
+                            </li>
+                            <li>
+                                <a href="#">meteorological & Oceanographic Satellite Data</a>
+                            </li>
+                            <li>
+                                <a href="#">Disaster Management : National & International</a>
+                            </li>
+                            <li>
+                                <a href="#">Aerial Services & Digital Mapping</a>
+                            </li>
+                            <li>
+                                <a href="#">North-East India region specific applications Services</a>
+                            </li>
+                            <li>
+                                <a href="#">VEDAS services</a>
+                            </li>
+                            <li>
+                                <a href="#">Transfer Orbit Service</a>
+                            </li>
+                            <li>
+                                <a href="#">Satellite aided search & rescue</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navele" onmouseover>
+                        <a href="#">
+                            <span>Programmes</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="velen" onmouseover>
+                            <li>
+                                <a href="https://www.isro.gov.in/AcademicCourses.html">Academic courses</a>
+                            </li>
+                            <li>
+                                <a href="https://www.isro.gov.in/Conference_Grants.html">Conference Grants</a>
+                            </li>
+                            <li>
+                                <a href="https://www.isro.gov.in/Fellowships.html">Fellowships</a>
+                            </li>
+                            <li>
+                                <a href="#">Space merchandise</a>
+                            </li>
+                            <li>
+                                <a href="#">Space Tutor</a>
+                            </li>
+                            <li>
+                                <a href="#">Space on wheels</a>
+                            </li>
+                            <li>
+                                <a href="#">Student Satellite</a>
+                            </li>
+                            <li>
+                                <a href="#">Technology Transfer</a>
+                            </li>
+                            <li>
+                                <a href="#">UNNATI</a>
+                            </li>
+                            <li>
+                                <a href="#">YUVIKA</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navele" onmouseover>
+                        <a href="#">
+                            <span>Resources</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="velen" onmouseover>
+                            <li>
+                                <a href="https://www.isro.gov.in/River_Basin_Atlas.html">Atlases: River basin</a>
+                            </li>
+                            <li>
+                                <a href="https://bhuvan.nrsc.gov.in/home/index.php">Bhuvan</a>
+                            </li>
+                            <li>
+                                <a href="https://www.isro.gov.in/DBEM.html">Database for Emergency Management</a>
+                            </li>
+                            <li>
+                                <a href="#">FEAST Tool</a>
+                            </li>
+                            <li>
+                                <a href="#">I-grasp</a>
+                            </li>
+                            <li>
+                                <a href="#">Info for Climate & Environment studies</a>
+                            </li>
+                            <li>
+                                <a href="#">Landslide Atlas of India</a>
+                            </li>
+                            <li>
+                                <a href="#">Meterology & Oceanographic data</a>
+                            </li>
+                            <li>
+                                <a href="#">Mobile Apps</a>
+                            </li>
+                            <li>
+                                <a href="#">Monthly Summary of DoS</a>
+                            </li>
+                            <li>
+                                <a href="#">MOSDAC</a>
+                            </li>
+                            <li>
+                                <a href="#">NAVIC Time</a>
+                            </li>
+                            <li>
+                                <a href="#">Publications</a>
+                            </li>
+                            <li>
+                                <a href="#">School Bhuvan - NCERT</a>
+                            </li>
+                            <li>
+                                <a href="#">Science Data</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navele" onmouseover>
+                        <a href="#">
+                            <span>Engagements</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="velen" onmouseover>
+                            <li>
+                                <a href="https://www.isro.gov.in/academia.html" target="_blank">Academia</a>
+                            </li>
+                            <li>
+                                <a href="https://www.isro.gov.in/ISROAPP/login.jsp" target="_blank">Ask an expert</a>
+                            </li>
+                            <li>
+                                <a href="https://www.isro.gov.in/Educators.html">Educators</a>
+                            </li>
+                            <li>
+                                <a href="#">Industry</a>
+                            </li>
+                            <li>
+                                <a href="#">Internship & Projects</a>
+                            </li>
+                            <li>
+                                <a href="#">Join ISRO</a>
+                            </li>
+                            <li>
+                                <a href="#">Media</a>
+                            </li>
+                            <li>
+                                <a href="#">Researchers</a>
+                            </li>
+                            <li>
+                                <a href="#">Start-ups</a>
+                            </li>
+                            <li>
+                                <a href="#">Students</a>
+                            </li>
+                            <li>
+                                <a href="#">Training</a>
+                            </li>
+                            <li>
+                                <a href="#">Visitors</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+       <div id="search">
+                <div>
+                <input type="text" placeholder="Search">
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+       </div>
+    </div>
+
+
+    <div class="hrline"></div>
+
+    <div class="al">
+
+        <div style="background-color: #030D45; background:linear-gradient(90deg, rgb(15 10 20) 15%, rgb(72 37 83) 50%, rgb(4 5 75) 91%); width: 100vw;" class="contentb">
+
+            <div class="spark" style="background-color:#F5FAFD; width: 80vw;">
+                <div class="launching-info" style="width:80vw">
+                    <div class="laino" style="width: 50vw;" ><h2>About ISRO</h2></div>
+                    <div class="lain" style="width: 30vw;">
+                        <a href="myproject.html">Home</a> /About/Profile
+                    </div>
+                </div>
+    
+                <div class="museummain">
+    
+                    <div class="museum" style="background-color: white;">
+    
+                        <p>
+                            Indian Space Research Organisation (ISRO) is the space agency of India. The organisation is involved in science, engineering and technology to harvest the benefits of outer space for India and the mankind. ISRO is a major constituent of the Department of Space (DOS), Government of India. The department executes the Indian Space Programme primarily through various Centres or units within ISRO.
+                            <br><br>
+                            ISRO was previously the Indian National Committee for Space Research (INCOSPAR), set up by the Government of India in 1962, as envisioned by Dr. VikramA Sarabhai. ISRO was formed on August 15, 1969 and superseded INCOSPAR with an expanded role to harness space technology. DOS was set up and ISRO was brought under DOS in 1972.
+                            <br><br>
+                            The prime objective of ISRO/DOS is the development and application of space technology for various national needs. To fulfil this objective, ISRO has established major space systemsfor communication, television broadcasting and meteorological services; resources monitoring and management; space-based navigation services. ISRO has developed satellite launch vehicles, PSLV and GSLV, to place the satellites in the required orbits.
+                            <br><br>
+                            Alongside its technological advancement, ISRO contributes to science and science education in the country. Various dedicated research centres and autonomous institutions for remote sensing, astronomy and astrophysics, atmospheric sciences and space sciences in general function under the aegis of Department of Space. ISRO's own Lunar and interplanetary missions along with other scientific projects encourage and promote science education, apart from providing valuable data to the scientific community which in turn enriches science.
+                            <br><br>
+                            ISRO has its headquarters in Bengaluru. Its activities are spread across various centres and units. Launch Vehicles are built at VikramSarabhai Space Centre (VSSC), Thiruvananthapuram; Satellites are designed and developed at U R Rao Satellite Centre (URSC), Bengalure; Integration and launching of satellites and launch vehicles are carried out from Satish Dhawan Space Centre (SDSC), Sriharikota; Development of liquid stages including cryogenic stage is carried out at Liquid Propulsion Systems Centre (LPSC), Valiamala& Bengaluru; Sensors for Communication and Remote Sensing satellites and application aspects of the space technology are taken up at Space Applications Centre (SAC), Ahmedabad and Remote Sensing satellite data reception processing and dissemination is entrusted to National Remote Sensing Centre (NRSC), Hyderabad.
+                            <br><br>
+                            The activities of ISRO are guided by its Chairman, who would also be the secretary of DOS and Chairman of Space commission – the apex body that formulates the policies and overseas the implementation of the Indian Space Programme.
+                        </p>
+    
+                    </div>
+    
+                </div>
+            </div>
+    
+        </div>
+       
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="boxf1">
+                        <h4>Adress</h4>
+                        <ul>
+                            <li>
+                                <div class="address">
+                                    <p>
+                                        "ISRO Headquarters, Antariksh Bhavan, New BEL Road"
+                                        <br>
+                                        "Bengaluru-560 094"
+                                        <br>
+                                        <br>
+                                        <strong>Phone: </strong>
+                                        "+91 80 22172294 / 96"
+                                        <br>
+                                        <strong>Email:</strong>
+                                        "cio[at]isro[dot]gov[dot]in"<br>
+
+                                    </p>
+                                    <hr >
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="usefullink">
+                        <ul>
+                            <li>
+                                <a href="#">RTI</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Feedback</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Contact us</a>
+                            </li>
+                            <li>
+
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Website Policy</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Copyright Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="boxf3">
+                        <ul>
+                            <li>
+
+                                <a href="#">Hyper Linking Policy</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Terms of Use</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Archives</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Web Information Manager</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Space Policy</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Parliament Questions</a>
+                            </li>
+                            <li>
+
+                                <a href="#">PIB</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+
+                    <div class="boxf4">
+                        <ul>
+        
+                            <li>
+
+                                <a href="#">e-Saral Hindi Vakyakosh</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Related links</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Check Your 7th CPC Pension Revision</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Pensioners'Portal</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Site Map</a>
+                            </li>
+                            <li>
+
+                                <a href="#">Help</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="boxf5">
+                        <ul>
+                            <li>
+
+                                <a href="#">
+                                    <img id="gov" src="indiagov_logo.jpg.webp">
+                                </a>
+                            </li>
+                            <li>
+                                <span>
+                                    <img id="code"src="india_code_logo.jpg.webp">
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <a href="#">
+                                        <img id="im"src="STQC.jpg.webp">
+                                    </a>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <a href="#">
+                                        <img id="chandra" src="Chandrayaan3LogoVector.png">
+                                    </a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="copyright">
+                    <p>&copy Copyright 2023 <b>ISRO</b>. All Right Reserved</p><br>
+                    <p>Designed by CITG/MSA VSSC/ISRO</p>
+                </div>
+
+            </div>
+            
+            </div>
+        </div>
+    </footer>
+    <script src="isro.js"></script>
+</body>
+</html>
